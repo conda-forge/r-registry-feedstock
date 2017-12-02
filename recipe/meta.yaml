@@ -28,7 +28,7 @@ requirements:
     - r-base 3.3.2
 
   run:
-    - r-base 3.*
+    - r-base >=3.3.2,<4
 
 test:
   commands:
