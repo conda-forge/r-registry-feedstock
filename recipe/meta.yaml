@@ -16,18 +16,19 @@ source:
   sha256: 58a5c43b8012ca5e509fa29a8daf6f24f097b8eb021a723f6a9c33db1dd3f430
 
 build:
-  number: 0
+  number: 1
   skip: true  # [win32]
   rpaths:
     - lib/R/lib/
     - lib/
+  noarch: generic
 
 requirements:
   build:
-    - r-base
+    - r-base 3.3.2
 
   run:
-    - r-base
+    - r-base 3.*
 
 test:
   commands:
