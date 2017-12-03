@@ -31,8 +31,7 @@ requirements:
 
 test:
   commands:
-    - $R -e "library('registry')"  # [not win]
-    - "\"%R%\" -e \"library('registry')\""  # [win]
+    - R -e "library('registry')"
 
 about:
   home: https://CRAN.R-project.org/package=registry
