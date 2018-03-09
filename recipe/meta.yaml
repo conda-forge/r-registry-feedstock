@@ -1,4 +1,4 @@
-{% set version = '0.3' %}
+{% set version = "0.5" %}
 
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
@@ -13,7 +13,7 @@ source:
     - https://cran.r-project.org/src/contrib/registry_{{ version }}.tar.gz
     - https://cran.r-project.org/src/contrib/Archive/registry/registry_{{ version }}.tar.gz
 
-  sha256: 58a5c43b8012ca5e509fa29a8daf6f24f097b8eb021a723f6a9c33db1dd3f430
+  sha256: 5d8be59ba791987b2400e9e8eaaac614cd544c1aece785ec4782ea6d5ea00efb
 
 build:
   number: 0
