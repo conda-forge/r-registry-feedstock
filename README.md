@@ -14,9 +14,8 @@ Summary: Provides a generic infrastructure for creating and using registries.
 Current build status
 ====================
 
-[![Linux](https://img.shields.io/circleci/project/github/conda-forge/r-registry-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/r-registry-feedstock)
-[![OSX](https://img.shields.io/travis/conda-forge/r-registry-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/r-registry-feedstock)
-[![Windows](https://img.shields.io/appveyor/ci/conda-forge/r-registry-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/r-registry-feedstock/branch/master)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/r-registry-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/r-registry-feedstock)
 
 Current release info
 ====================
