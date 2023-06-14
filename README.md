@@ -1,11 +1,11 @@
-About r-registry
-================
+About r-registry-feedstock
+==========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-registry-feedstock/blob/main/LICENSE.txt)
 
 Home: https://CRAN.R-project.org/package=registry
 
 Package license: GPL-2.0-only
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-registry-feedstock/blob/main/LICENSE.txt)
 
 Summary: Provides a generic infrastructure for creating and using registries.
 
